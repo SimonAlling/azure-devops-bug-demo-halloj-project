@@ -3,6 +3,7 @@ resources:
     - repository: halloj_pipeline
       type: git
       name: halloj-pipeline
+      ref: foobar
 
 stages:
 - template: stages.yml@halloj_pipeline
