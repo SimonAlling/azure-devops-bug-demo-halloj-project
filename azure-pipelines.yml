@@ -1,0 +1,8 @@
+resources:
+  repositories:
+    - repository: halloj_pipeline
+      type: git
+      name: halloj-pipeline
+
+stages:
+- template: stages.yml@halloj_pipeline
